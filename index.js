@@ -30,9 +30,10 @@ function findBy(array, findFn){
   for(let i = 0; i < array.length; i++){
     
     if(array[i] === findFn){
-     return;
-    } else return null;
+     return findFn;
+    } 
     
   }
+  return null;
   
 }
