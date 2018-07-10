@@ -31,5 +31,5 @@ function findBy(array, findFn){
      return array[i];
     } 
   }
-  return findFn();
+  return null;
 } 
