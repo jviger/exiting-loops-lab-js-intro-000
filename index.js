@@ -10,5 +10,5 @@ function breakOut(array, changeValue, stopValue){
     }
     
   }
-  
+  return array;
 }
