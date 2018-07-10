@@ -26,11 +26,11 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 function findBy(array, findFn){
-  
+  var value = findFn();
   for(let i = 0; i < array.length; i++){
     
-    if(array[i] === findFn{
-     return findFn;
+    if(array[i] === value){
+     return value;
     } 
   
   }
